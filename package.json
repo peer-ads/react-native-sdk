@@ -1,0 +1,32 @@
+{
+  "name": "@peerads/react-native",
+  "version": "0.1.0",
+  "description": "PeerAds React Native SDK — unified ad mediation + peer promotion",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.73",
+    "react-native-webview": ">=13"
+  },
+  "peerDependenciesMeta": {
+    "react-native-google-mobile-ads": { "optional": true },
+    "react-native-fbads": { "optional": true },
+    "react-native-applovin-max": { "optional": true },
+    "react-native-unity-ads": { "optional": true },
+    "react-native-ironsource": { "optional": true }
+  },
+  "optionalDependencies": {
+    "react-native-google-mobile-ads": "^13.0.0",
+    "react-native-fbads": "^5.6.1",
+    "react-native-applovin-max": "^3.0.0",
+    "react-native-unity-ads": "^3.0.0",
+    "react-native-ironsource": "^2.0.0"
+  },
+  "keywords": ["react-native", "ads", "adnetwork", "mediation", "peerads"],
+  "license": "MIT"
+}
